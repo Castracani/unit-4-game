@@ -1,0 +1,27 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.numericalDiv {
+    float: left;
+}
+
+.float {
+    float: left;
+}
+
+#wins,
+#losses {
+    float: left;
+}
+
+img.crystalImg {
+    float: left;
+    height: 160px;
+    width: 100px;
+
+}
