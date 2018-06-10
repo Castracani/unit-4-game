@@ -1,2 +1,2 @@
 # unit-4-game
-Crystal Collector
+I took the time to pseudocode everything out, and generally think through how the entire structure of the program would work, before I wrote any actual code. The end result, was making this much much easier! I did have some errors, but that was because of an umfamiliarity with the deeper rules of how JavaScript works, not because I got lost within my own work. This felt much better than last week. I've learned the value of being patient and taking a couple of hours to plan out how the goal needs to be reached, without jumping straight into the actual coding.
