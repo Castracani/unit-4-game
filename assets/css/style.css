@@ -4,7 +4,16 @@
     display: table;
 }
 
-
+body {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    background-image: url("../images/stripes-light.png");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .numericalDiv {
     float: left;
@@ -12,6 +21,8 @@
 
 .float {
     float: left;
+    margin-left: 40px;
+    margin-right: 2px;
 }
 
 #wins,
@@ -25,3 +36,67 @@ img.crystalImg {
     width: 100px;
 
 }
+
+#header {
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+#top {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+#randomNumberContainer {
+    background-color: #999;
+    width: 120px;
+    height:40px;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-right: 30px;
+    padding-top: 20px;
+    margin-top: 14px;
+}
+
+
+#scoreDiv {
+    background-color: #999;
+    width: 170px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#cumulativeDiv {
+    background-color: #999;
+    width: 50px;
+    height:20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+section,
+span {
+    text-align: center;
+}
+
+
+.crystalImg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px double #4aaaa4;
+}
+
+
+
+
+
+

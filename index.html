@@ -13,7 +13,7 @@
 <body>
 
     <div id="header">
-        <p>CrystalsCollector!</p>
+        <p id="top">CrystalsCollector!</h1>
     </div>
 
     <div id="instructions">
@@ -30,19 +30,29 @@
     </div>
 
     <div class="clearfix">
+
         <div class="numericalDiv" id="randomNumDiv">
             <section id="randomNumberContainer"></section>
         </div>
 
         <div class="numericalDiv" id="scoreDiv">
-            <span id="gameStateText"></span>
-            
-            <span class="float">Wins: </span><div id="wins"></div>
+            <div class="manipulate">
+                <span id="gameStateText"></span>
+                <br />
 
-            <div class="clearfix"></div>
-            <span class="float">Losses: </span><div id="losses"></div>
-            
+                <span class="float">Wins: </span>
+                <div id="wins"></div>
+                
+
+                <div class="clearfix"></div>
+                <br />
+                <span class="float">Losses: </span>
+                <div id="losses"></div>
+            </div>
+
         </div>
+
+
     </div>
 
 
@@ -56,11 +66,11 @@
         </div>
 
         <div>
-             <img id="crystal2" class="crystalImg" src="assets/images/orange-crystal.jpg" alt="orange crystal">
+            <img id="crystal2" class="crystalImg" src="assets/images/orange-crystal.jpg" alt="orange crystal">
         </div>
 
         <div>
-             <img id="crystal3" class="crystalImg" src="assets/images/white-crystal.jpg" alt="white crystal">
+            <img id="crystal3" class="crystalImg" src="assets/images/white-crystal.jpg" alt="white crystal">
         </div>
     </div>
 
@@ -68,14 +78,14 @@
         <p>Your total score is: </p>
     </div>
 
-    <div id="scoreDiv">
+    <div id="cumulativeDiv">
         <section id="score"></section>
     </div>
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
-<script src="assets/javascript/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
 
 
 </body>
